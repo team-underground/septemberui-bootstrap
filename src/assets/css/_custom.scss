@@ -1,0 +1,120 @@
+// custom style here...
+
+// Required for some issue to fixed
+*,
+:after,
+:before,
+.form-control {
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color: $gray-300;
+}
+
+// Required for some issue to fixed
+dd,
+p {
+  margin: 0;
+  margin-bottom: 1rem !important;
+}
+svg {
+  display: inline-block !important;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-position: top 10px right 10px !important;
+}
+
+// .base-multiselect {
+//   .form-control.is-invalid {
+//     background-position: center right 30px !important;
+//   }
+// }
+
+// Helpers
+.cursor-pointer {
+  cursor: pointer;
+}
+.fill-current {
+  fill: currentColor;
+}
+.text-xs {
+  font-size: 0.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+}
+.text-base {
+  font-size: 1rem;
+}
+.tracking-wide {
+  letter-spacing: 0.05em;
+}
+
+.text-link {
+  color: $gray-700 !important;
+
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.icon-32 {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+.icon-48 {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
+.icon-64 {
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.bg-red-100 {
+  background-color: $red-100 !important;
+}
+.bg-blue-100 {
+  background-color: $blue-100 !important;
+}
+.bg-green-100 {
+  background-color: $green-100 !important;
+}
+.bg-yellow-100 {
+  background-color: $yellow-100 !important;
+}
+
+// Custom btn-outline-secondary
+.btn-outline-secondary {
+  border-color: $gray-400 !important;
+  color: #606f7b !important;
+
+  &:hover,
+  &:focus {
+    background-color: inherit;
+    color: $primary !important;
+  }
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+  width: 1.2rem;
+  height: 1.2rem;
+  top: 0.1rem;
+}
+
+// Prism.js CSS
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: "Operator Mono", "Dank Mono", Consolas, Monaco, "Andale Mono",
+    "Ubuntu Mono", monospace;
+}
+.token.keyword {
+  font-style: italic;
+}
