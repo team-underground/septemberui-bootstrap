@@ -8,21 +8,27 @@
 			@click="closeOverlay()"
 		>
 			<div class="d-md-flex">
-				<div class="sidebar-nav bg-white shadow pr-4" :class="{ 'is-open': toggleMenu == true}">
-					<sidebar-menu :sidebaritems="sidebaritems" class="sidebar-theme">
+				<div
+					class="sidebar-nav bg-white shadow pr-4"
+					:class="{ 'is-open': toggleMenu == true}"
+				>
+					<sidebar-menu
+						:sidebaritems="sidebaritems"
+						class="sidebar-theme"
+					>
 						<template slot="sidebar-brand">
 							<a
 								href="#/"
 								class="text-decoration-none h5 mb-0 py-3 px-4 d-block text-dark"
 								style="letter-spacing: -0.05em"
 							>
-								<span class="text-danger font-weight-bold">Sumato</span> Design.
+								<span class="text-danger font-weight-bold">September</span> UI.
 							</a>
 						</template>
 					</sidebar-menu>
 
 					<p class="mt-5 px-4 small">
-						2019 &copy; Sumato Globaltech
+						2020 &copy; Underground
 						<br>Made in Guwahati.
 					</p>
 				</div>
@@ -48,15 +54,19 @@
 								<path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
 							</svg>
 						</button>
-						<a class="navbar-brand mr-auto mx-1 text-dark" href="#/" style="letter-spacing: -0.05em">
-							<span class="text-danger font-weight-bold">Sumato</span> Design.
+						<a
+							class="navbar-brand mr-auto mx-1 text-dark"
+							href="#/"
+							style="letter-spacing: -0.05em"
+						>
+							<span class="text-danger font-weight-bold">September</span> UI.
 						</a>
 
 						<div class="ml-auto small">v 1.0.0</div>
 					</nav>
 
 					<div class="main-content pt-3 pb-5">
-						<router-view/>
+						<router-view />
 					</div>
 				</div>
 			</div>

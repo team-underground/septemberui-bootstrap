@@ -10,7 +10,7 @@
 
 		<prism-editor
 			class="rounded"
-			code="git clone git@bitbucket.org:sumatoglobaltech/sumatodesign.git"
+			code="git clone git@github.com:teamchika/septemberui-bootstrap.git"
 			language="bash"
 		></prism-editor>
 
