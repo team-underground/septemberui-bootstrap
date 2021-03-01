@@ -16,7 +16,7 @@
     "filepond": "^4.4.0",
     "filepond-plugin-file-validate-type": "^1.2.4",
     "portal-vue": "^2.1.0",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.23.0",
     "v-calendar": "^1.0.0-beta.4",
     "vue": "^2.6.6",
     "vue-cool-select": "^2.10.2",
